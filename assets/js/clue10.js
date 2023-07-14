@@ -30,7 +30,7 @@ $("#submitAnswer").click(function () {
     var result = nameTrivia.toString().toLowerCase();
     var finalResult = result.includes("love loop");
     if (finalResult == true) {
-        window.location.href = "https://rastogi.codes";
+        window.location.href = "/Surprise.html";
     }
     else {
         document.getElementById("errorHandler").innerHTML = "Wrong Answer, Please Try again !!!";
